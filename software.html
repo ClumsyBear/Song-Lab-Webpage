@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Song Lab | Software</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="eecsstyle.css">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-84714937-1', 'auto');
+	  ga('send', 'pageview');
+	</script>		
+</head>
+
+<body>
+	<div class=maize_bar></div>
+	<header>
+		<div id=header_left>
+			<h1>Song Lab</h1>
+			<b>Department of Biostatistics</b>
+		</div> <!-- header_Left -->
+
+		<a href="https://sph.umich.edu/" target="_blank">
+		<div id=header_right_logo>
+			<img src="image/SPH-formal.png">
+		</div>
+		</a>
+	</header>
+
+	<div class=blue_bar>
+		<div id=main_menu_holder>
+			<nav class=main_menu><ul id="main_menu">
+					<li class="first"><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>					
+					<li><a href="people.html">People</a></li>
+					<li><a href="research.html">Research</a> </li>	
+					<li><a href="grant.html">Grants</a> </li>									
+					<li><a href="publications.html">Publications</a></li>	
+					<li><a href="collaboration.html">Collaboration</a></li>									
+					<li><a href="software.html">Software</a></li>	
+					<li><a href="contact.html">Contact</a></li>									
+					<!-- class="first" should only be used with the first menu item -->
+				</ul>
+			</nav>
+		</div><!-- main menu -->
+	</div><!-- blue bar -->
+
+
+	<div id="content_holder">
+		<div class=wrapper>
+			<div class="one_column">
+				<h1>Packages</h1>
+
+				<ul>
+					<li><a href="#HDDesign"><strong>HDDesign</strong></a></li>						
+					<li><a href="#metaFuse"><strong>metaFuse</strong></a></li>	
+					<li><a href="#FLAPO"><strong>FLAPO</strong></a></li>	
+					<li><a href="#GeoCopula"><strong>GeoCopula</strong></a></li>
+					<li><a href="#GDEP"><strong>GDEP</strong></a></li>
+					<li><a href="#QIF"><strong>QIF</strong></a></li>
+				</ul>				
+
+				<div id="content_holder">
+					<div class=wrapper>
+
+						<a name="HDDesign"></a>
+						<div class="one_column">
+							<hr>
+							<h3>HDDesign: Determine the Sample Size for High Dimensional Classification Studies</h3>
+							<b>Description</b>
+							Determine the sample size requirement to achieve the target probability of correct classification (PCC) for studies employing high-dimensional features. The package implements functions to 1) determine the asymptotic feasibility of the classification problem; 2) compute the upper bounds of the PCC for any linear classifier; 3) estimate the PCC of three design methods given design assumptions; 4) determine the sample size requirement to achieve the target PCC for three design methods.
+							<br />
+							<b>Download <a href="https://cran.r-project.org/web/packages/HDDesign/index.html" target="_blank">[R]</a></b>
+							<br />
+							<b>References</b>
+							<ol>
+								<li>Sanchez, B.N., Wu, M., Song, P.X.K., and Wang W. (2016). Study design in high-dimensional classification analysis. <em>Biostatistics</em>, doi: 10.1093/biostatistics/kxw018.</li>						
+							</ol>								
+						</div> <!-- one_column -->
+
+
+						<a name="metaFuse"></a>
+						<div class="one_column">
+							<hr>
+							<h3>metaFuse: Fused Lasso Approach in Regression Coefficient Clustering</h3>
+							<b>Description</b>
+							Used to detect parameter heterogeneity and cluster coefficients in data fusion when multiple similar data sets are combined. For each covariate, cluster its data-specific coefficients across different data sets. Supports Gaussian, logistic and Poisson regression models.
+							<br />
+							<b>Download <a href="https://cran.r-project.org/web/packages/metafuse/index.html" target="_blank">[R]</a></b>	
+							<br />
+							<b>References</b>
+							<ol>
+								<li>Tang, L., & Song, P.X.K. (2016). Fused Lasso Approach in Regression Coefficients Clustering -- Learning Parameter Heterogeneity in Data Integration. <em>Journal of Machine Learning Research</em>, 17(113):1−23.</li>					
+							</ol>									
+						</div> <!-- one_column -->
+
+
+						<a name="FLAPO"></a>
+						<div class="one_column">
+							<hr>
+							<h3>FLAPO: Fused Lasso with the Adaptation of Parameter Ordering in Combining Multiple Studies with Repeated Measurements</h3>
+							<b>Description</b>
+							FLAPO is the R code that implemented fused lasso method to merge longitudinal data in the simulation study presented by the publication, Wang, Wang and Song (2016) in Biometrics.
+							<br />
+							<b>Download <a href="http://www-personal.umich.edu/~pxsong/FLAPO/" target="_blank">[R]</a></b>
+							<br />			
+							<b>References</b>
+							<ol>
+								<li>Wang, F., Wang, L., & Song, P.X.K. (2016). Fused lasso with the adaptation of parameter ordering in combining multiple studies with repeated measurements. <em>Biometrics</em>, DOI: 10.1111/biom.12496.</li>		
+							</ol>
+						</div> <!-- one_column -->
+
+
+						<a name="GeoCopula"></a>
+						<div class="one_column">
+							<hr>
+							<h3>GeoCopula: GeoCopula Models for Spatial-Clustered Data</h3>
+							<b>Description</b>
+							This software provides a unified modeling framework to analysis of spatial-clustered continuous and binary data.
+							<br />
+							<b>Download <a href="http://www-personal.umich.edu/~jiankang/software/GeoCopula.html" target="_blank">[R]</a></b>
+							<br />		
+							<b>References</b>
+							<ol>
+								<li>Bai, Y., Kang, J., & Song, P.X.K. (2014). Efficient pairwise composite likelihood estimation for spatial‐clustered data. <em>Biometrics</em>, 70(3), 661-670.</li>								
+							</ol>
+						</div> <!-- one_column -->
+
+
+						<a name="GDEP"></a>
+						<div class="one_column">
+							<hr>
+							<h3>GDEP: Gene Network Construction Based on Time Course Microarray Data</h3>
+
+							<b>Description</b>
+							GDEP is a FORTRAN program that computes transition dependency as a gene-gene interaction measure for times series microarray data in the publication, Gao, Pu and Song (2008) in EURASIP Journal on Bioinformatics and System Biology.
+							<br />
+							<b>Download <a href="software/GDEP.zip" target="_blank">[Fortran]</a></b>	
+							<br />
+							<b>References</b>
+							<ol>
+								<li>Gao, X., Pu, DQ., & Song, P.X.K. (2009). Transition dependency: a gene-gene interactionmeasure for times seriesmicroarray data. <em>EURASIP Journal on Bioinformatics and Systems Biology</em>, 2009, 2.</li>					
+							</ol>
+						</div> <!-- one_column -->
+
+
+						<a name="QIF"></a>
+						<div class="one_column">
+							<hr>
+							<h3>QIF: Quadratic Inference Function</h3>
+
+							<b>Description</b>
+							R package QIF was developed to perform the estimation and inference for regression coefficient parameters in longitudinal marginal models using the method of quadratic inference functions.
+							<br />
+							<b>Download <a href="http://www-personal.umich.edu/~pxsong/qif_sas.html" target="_blank">[SAS]</a> <a href="http://www-personal.umich.edu/~pxsong/qif_package.html" target="_blank">[R]</a></b>
+							<br />		
+							<b>References</b>
+							<ol>
+								<li>Qu, A., & Song, P.X.K. (2004). Assessing robustness of generalised estimating equations and quadratic inference functions. <em>Biometrika</em>, 91(2), 447-459.</li>
+								<li>Song, P.X.K., Jiang, Z., Park, E., & Qu, A. (2009). Quadratic inference functions in marginal models for longitudinal data. <em>Statistics in medicine</em>, 28(29), 3683-3696.</li>								
+							</ol>
+						</div> <!-- one_column -->
+
+
+					</div> <!-- wrapper -->
+				</div> <!-- content_holder -->
+
+			</div> <!-- one_column -->
+		</div> <!-- wrapper -->
+	</div> <!-- content_holder -->
+
+	<div id="content_holder">
+		<div class=wrapper>
+			<div class="one_column">
+				<!-- 
+					<hr> 
+				-->
+				<b>Software Disclaimer</b><br />
+				THE SOFTWARE PACKAGES ARE PROVIDED &ldquo;AS IS&rdquo;, AND ONLY FOR NON-PROFIT USE. CURRENTLY THERE IS NO FORMAL SUPPORT ON IT. FURTHER ASSISTANCE BY THE AUTHORS REGARDING APPLICATION OF SOFTWARE WILL NOT BE PROVIDED, IN GENERAL. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA; BUSINESS INTERRUPTION) CAUSED AND ON ANY THEORY OF LIABILITY ARISING IN ANY WAY OUT OF THE USE OF THESE SOFTWARE PACKAGES.
+			</div> <!-- one_column -->
+		</div> <!-- wrapper -->
+	</div> <!-- content_holder -->
+
+
+	<div id="content_holder">
+		<!--   <p><script type="text/javascript" src="js_lus.js"></script></p>   -->
+		<div id="textbox">
+		  <p class="alignleft">This page was last modified on: 9/2/2016</p>
+		  <p class="alignright">Questions or comments with the site? Contact the maintainer (<a href="people.html#lutang">Lu Tang</a>).</p>
+		</div>			
+	</div> <!-- content_holder -->
+
+	<!-- FOOTER -->
+	<div class="footer_bar">
+		<div id=footer>
+			<div id=footer_left>
+				<nav class=footer>
+					<ul>
+					<li class=first><a href="https://sph.umich.edu/biostat/" target="_blank">Biostatistics</a></li>
+					<li><a href="https://sph.umich.edu/" target="_blank">School of Public Health</a></li>
+					<li class=last><a href="http://umich.edu" target="_blank">University of Michigan</a></li>
+					</ul>
+				</nav>
+				<div id=copyright><ul><li>&copy; <script>var d = new Date();var n = d.getFullYear();document.write(n);</script> <a href="http://regents.umich.edu/" target="_blank">The Regents of the University of Michigan</a></li></ul></div>
+			</div><!-- footer left -->
+			<div id=footer_right>
+				<img src="image/footer-logo.png">
+			</div><!-- footer_right -->
+			<div class=clear_fix></div>
+		</div><!-- footer-->
+	</div><!-- footer bar -->
+
+
+</body>
+</html>

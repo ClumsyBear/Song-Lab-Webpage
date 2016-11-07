@@ -1,0 +1,203 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Song Lab | Research</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="eecsstyle.css">
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-84714937-1', 'auto');
+	  ga('send', 'pageview');
+	</script>	
+	
+</head>
+
+<body>
+	<div class=maize_bar></div>
+	<header>
+		<div id=header_left>
+			<h1>Song Lab</h1>
+			<b>Department of Biostatistics</b>
+		</div> <!-- header_Left -->
+
+		<a href="https://sph.umich.edu/" target="_blank">
+		<div id=header_right_logo>
+			<img src="image/SPH-formal.png">
+		</div>
+		</a>			
+	</header>
+
+	<div class=blue_bar>
+		<div id=main_menu_holder>
+			<nav class=main_menu><ul id="main_menu">
+					<li class="first"><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>					
+					<li><a href="people.html">People</a></li>
+					<li><a href="research.html">Research</a> </li>	
+					<li><a href="grant.html">Grants</a> </li>									
+					<li><a href="publications.html">Publications</a></li>	
+					<li><a href="collaboration.html">Collaboration</a></li>									
+					<li><a href="software.html">Software</a></li>	
+					<li><a href="contact.html">Contact</a></li>									
+					<!-- class="first" should only be used with the first menu item -->
+				</ul>
+			</nav>
+		</div><!-- main menu -->
+	</div><!-- blue bar -->
+
+
+
+	<div id="content_holder">
+		<div class=wrapper>
+
+			<div class="two_column_70_left">
+				<h1>Projects</h1>
+
+				<hr>
+				<h3>Assessing Effect of Environmental Exposure to Toxicants on Human Growth Dynamics</h3>
+				<b>About</b>
+				<p>Emerging areas of research in environmental health sciences and the ascendancy of new interdisciplinary approaches have led to the development of new hypotheses and technologies to collect massive complex data that present great data analysis challenges. Substantially motivated by analytic needs arising from a major environmental health research center at this University of Michigan (U-M), the primary goal is to develop a set of novel statistical models and efficient algorithms to evaluate, interpret, and predict impacts of prenatal and/or postnatal exposures to environmental risk factors for adverse child health and developmental outcomes. </p>
+				<p>Funded by an NIH methodology R01 grant, the lab aims to (i) develop semiparametric models and algorithms to evaluate the influence of prenatal and/or postnatal exposures to toxic mixtures on delayed somatic growth and sexual maturation during the adolescent period; and (ii) develop semiparametric stochastic models to evaluate the functional rate of growth changes during the 0-5 year age-period and its potential alterations driven by exposure mixtures. Stochastic differential equations are utilized to model both growth velocity and acceleration as functions of anthropometric characteristics and toxicant mixtures, and the resulting model helps investigators to study various child growth milestones such as timing of velocity peak and adiposity (BMI) rebound.</p>
+				<b>References</b>
+				<ol>
+					<li>Ma, S. and Song, PXK. (2015). Varying index coefficient models.  <em>Journal of American Statistical Association</em> 110, 341-356.</li>
+					<li>Zhu, B., Taylor, J.M.G. and Song, P.X.-K. (2011). Semiparametric stochastic modeling of the rate function in longitudinal studies. <em>Journal of the American Statistical Association</em> 106, 1485-1495.</li>	
+					<li>Zhu, B., Song, P.X.-K. and Taylor, J.M.G. (2011).  Stochastic functional data analysis: A diffusion model-based approach.  <em>Biometrics</em> 67, 1295-1304.</li>					
+				</ol>
+
+				<hr>
+				<h3>Data Integration and Data Harmonization</h3>
+				<b>About</b>
+				<p>With the support from an NIH methodology R01 grant, the lab is devoted to the development of novel statistical methods that enables to assess the validity of merging longitudinal cohort data and to perform joint analysis of merged data. Merging longitudinal data sets from multiple cohorts helps yield a desirable age spectrum in growth analyses but complicated by the underlying heterogeneity across different age cohorts. An efficient fused LASSO algorithm is proposed to detect potential inter-cohort heterogeneities that are subsequently accounted for to reach a valid joint analysis of merged data.</p>
+				<b>References</b>
+				<ol>
+					<li>Wang, F., Wang, L. and Song, P.X.-K. (2016). Fused Lasso with the adaptation of parameter ordering in combining multiple studies with repeated measurements.  <em>Biometrics</em> (to appear).</li>		
+					<li>Tang, L, and Song, P.X.-K. (2016). Fused lasso in regression coefficients clustering – Learning parameter heterogeneity in data integration. <em>Journal of Machine Learning Research</em> 17, 1-23. </li>
+					<li>Wang, F., Song, P.X.K. and Wang, L. (2015). Merging multiple longitudinal studies with study-specific missing covariates: A joint estimating function approach. <em>Biometrics</em> 71, 929-940.</li>	
+					<li>Wang, F., Wang, L. and Song, P.X.-K. (2012). Quadratic inference function approach to merging longitudinal studies: Validation test and joint estimation. <em>Biometrika</em> 99,748-754.</li>			
+				</ol>							
+
+				<hr>
+				<h3>Kidney Paired Donation</h3>
+				<b>About</b>
+				<p>An evolving strategy known as kidney paired donation (KPD) provides an approach to overcome the barriers faced by many patients with kidney failure who present with willing, but immunologically or blood type incompatible living donors. KPD programs use a computerized algorithm to match one incompatible donor/recipient pair to another pair with a complementary incompatibility, such that the donor of the first pair gives to the recipient of the second, and vice versa. More complex exchanges of organs involving three or more pairs are also considered as are altruistic or non-directed donors (NDD) who donate a kidney voluntarily and thereby have the potential to create a chain of kidney transplants.  Such donors and chains have become increasingly important in KPD programs.</p>
+				<p>Funded by NIH grant consecutively, the lab has developed important methods based on sets with fallbacks to incorporate various features of a KPD,  including extensions to incorporate: partially directed donors, candidates with multiple incompatible donors; compatible pairs,; deceased donors; and donors from pools with a different genetic makeup. In addition, the lab is currently developing efficient algorithms to enumerate subsets of interest in a KPD pool and to evaluate the expected utility that such subsets would attain if chosen. </p>
+				<b>References</b>
+				<ol>
+					<li>Wang, W., Bray, M., Song, P.X.-K. and Kalbfleisch, J.D.  (2016). A look-ahead strategy for non-directed donors in kidney paired donation.  <em>Statistics in Biosciences</em> (to appear).</li>		
+					<li>Bray, M., Wang, W., Song, P.X.K., Leichtman, A. B., Rees, M. A., Ashby, V. B., Eikstadt, R., Goulding, A. and Kalbfleisch, J. D. (2015). Planning for uncertainty and fallbacks can increase the number of transplants in a kidney paired donation program. <em>American Journal of Transplantation</em> 15, 2636-2645.</li>
+					<li>Li, Y., Song, PXK, Leichtman, A.B., Rees, M.A. and Kalbfleisch, J.D. (2013). Decision making in kidney paired donation programs with altruistic donors. <em>Statistics and Operations Research Transactions (SORT)</em> 38, 53-72.</li>
+					<li>Chen, Y., Li, Y., Kalbfleisch, J.D., Zhou, Y., Leichtman, A. and Song, P.X.-K. (2012). Graph-based optimization algorithm and software on kidney exchanges. <em>IEEE Transactions on Biomedical Engineering</em> 59(7), 1985-1991.</li>				
+				</ol>
+
+				<hr>
+				<h3>Networked Data Analysis</h3>
+				<b>About</b>
+				<p>Data collected from networks are pervasive in practice. A network refers to a set of nodes or vertices joined in pairs by edges. An important feature of a network is that between-node distance may not be defined precisely in a numeric metric. </p>
+				<p>Supported an NSF funding, the lab pursuits the research with the following overarching: to develop quasi-likelihood theory and methods for regression analysis of multi-dimensional response variables on covariates that are collected from networks. Because data from a network are correlated across nodes, in order to achieve desirable efficiency of statistical inference we commit to address relevant analytic challenges pertinent to the need of incorporating appropriate dependence structures in estimation and inference for regression parameters.</p>
+				<b>References</b>
+				<ol>
+					<li>Zhong, P., Lan, W., Song, P.X.-K. and Tsai, C. (2016). Tests for covariance structures with high-dimensional repeated measurements.  <em>Annals of Statistics</em> (to appear).</li>		
+					<li>Zhou, Y. and Song, P.X.-K. (2016). Regression analysis of networked data.  <em>Biometrika</em> 103, 287-301.</li>				
+				</ol>
+
+				<hr>
+				<h3>Recommender Systems</h3>
+				<b>About</b>
+				<p>Making recommendation is one of the central analytic tasks in the context of Big Data analytics along the lines of machine learning. The essence of building a recommender system is the toolbox useful to train association rules that explain relationships among (usually categorical) attributes or predictors.  The currently popular apriopri algorithm is available only for Bayesian network, where directed edges among attributes are defined by a somewhat artificial ordering according to the marginal frequencies of the attributes. </p>
+				<p>The lab aims to develop a generalized recommender system by relaxing Bayesian network to allow both directed and undirected edges.  Such generalization requires a much more challenging graphic optimization involving both cycles and chains. </p>
+				<b>References</b>
+				<ol>
+					<li>Wang, W., Bray, M., Song, P.X.-K. and Kalbfleisch, J.D.  (2016). Locally relevant subgraph enumeration.  Working paper. </li>						
+				</ol>
+
+				<hr>
+				<h3>Statistical Inference in Big Data</h3>
+				<b>About</b>
+				<p>The lab focuses on developing simultaneous statistical inference for Big Data.  The current literature mostly provides statistical inference on a single variable at one time, which is not ideal in many practical settings where several parameters need to be examined simultaneously.   </p>
+				<b>References</b>
+				<ol>
+					<li>Tang, L, Zhou, L. and Song, P.X.K. (2016). Method of divide-and-combine in regularized generalized linear models for big data.   Working Paper. </li>	
+					<li>Wang, F. Zhou, L., Tang, L. and Song, P.X.K. (2016).  Simultaneous inference in high-dimensional linear model via the contraction and saturate expansion algorithm.  Working paper. </li>					
+				</ol>
+			</div> <!-- two_column_70_left -->
+
+			<div class="two_column_30_right">
+				<h1>Links</h1>
+				<ul>
+					<li><a href="https://sph.umich.edu/biostat/" target="_blank">Department of Biostatistics</a></li>
+					<li><a href="https://sph.umich.edu/cehc/" target="_blank">Children's Environmental Health and Disease Prevention Center</a></li>
+					<li><a href="http://kecc.sph.umich.edu/" target="_blank">Kidney Epidemiology and Cost Center</a></li>
+					<li><a href="https://www.umich.edu/~songlab/internal.html">Internal Webpage (For members)</a></li>
+				</ul>
+
+<!--
+				<h1>Posters</h1>
+				2016<br>
+				<ul>
+					<li><a href="" target="_blank">Poster Title</a></li>
+					<li><a href="" target="_blank">Poster Title</a></li>
+				</ul>
+				<br>
+
+				2015<br>
+				<ul>
+					<li><a href="" target="_blank">Poster Title</a></li>
+					<li><a href="" target="_blank">Poster Title</a></li>
+				</ul>
+				<br>
+
+				2014<br>
+				<ul>
+					<li><a href="" target="_blank">Poster Title</a></li>
+					<li><a href="" target="_blank">Poster Title</a></li>
+				</ul>
+				<br>
+-->
+
+			</div> <!-- two_column_30_right -->					
+		</div> <!-- wrapper -->
+	</div> <!-- content_holder -->
+
+
+
+
+	<div id="content_holder">
+		<div class=wrapper>
+			<!--   <p><script type="text/javascript" src="js_lus.js"></script></p>   -->
+			<div id="textbox">
+			  <p class="alignleft">This page was last modified on: 8/31/2016</p>
+			  <p class="alignright">Questions or comments with the site? Contact the maintainer (<a href="people.html#lutang">Lu Tang</a>).</p>
+			</div>			
+		</div> <!-- wrapper -->
+	</div> <!-- content_holder -->
+	
+	<!-- FOOTER -->
+	<div class="footer_bar">
+		<div id=footer>
+			<div id=footer_left>
+				<nav class=footer>
+					<ul>
+					<li class=first><a href="https://sph.umich.edu/biostat/" target="_blank">Biostatistics</a></li>
+					<li><a href="https://sph.umich.edu/" target="_blank">School of Public Health</a></li>
+					<li class=last><a href="http://umich.edu" target="_blank">University of Michigan</a></li>
+					</ul>
+				</nav>
+				<div id=copyright><ul><li>&copy; <script>var d = new Date();var n = d.getFullYear();document.write(n);</script> <a href="http://regents.umich.edu/" target="_blank">The Regents of the University of Michigan</a></li></ul></div>
+			</div><!-- footer left -->
+			<div id=footer_right>
+				<img src="image/footer-logo.png">
+			</div><!-- footer_right -->
+			<div class=clear_fix></div>
+		</div><!-- footer-->
+	</div><!-- footer bar -->
+
+
+</body>
+</html>

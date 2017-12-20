@@ -57,6 +57,11 @@
 				<h1>Packages</h1>
 
 				<ul>
+					<li><a href="#accelerometer"><strong>Tool for Accelerometer Data</strong></a></li>
+					<li><a href="#Tensor"><strong>Tensor Decomposition</strong></a></li>
+					<li><a href="#RCD"><strong>RCD</strong></a></li>
+					<li><a href="#NGM"><strong>NGM: Newton's growth Model</strong></a></li>
+					<li><a href="#MODAC"><strong>MODAC</strong></a></li>	
 					<li><a href="#HDDesign"><strong>HDDesign</strong></a></li>						
 					<li><a href="#metaFuse"><strong>metaFuse</strong></a></li>	
 					<li><a href="#FLAPO"><strong>FLAPO</strong></a></li>	
@@ -67,6 +72,66 @@
 
 				<div id="content_holder">
 					<div class=wrapper>
+
+
+						<a name="accelerometer"></a>
+						<div class="one_column">
+							<hr>
+							<h3>R Tool for Analysis of Accelerometer Data</h3>
+							<b>Description</b>
+							R Code (including an R Shiny app) and an example data for the analysis of accelerometer data, used for sleep period detection of accelerometer tracking data.
+							<br />
+							<b>Download <a href="software/accelerometer.zip" target="_blank">[R Code and Example Data]</a> <a href="https://jongguri.shinyapps.io/manualanalysis/" target="_blank">[R Shiny App]</a></b>
+							<br />
+						</div> <!-- one_column -->
+
+						<a name="Tensor"></a>
+						<div class="one_column">
+							<hr>
+							<h3>Tensor Decomposition</h3>
+							<b>Description</b>
+							R Code for CP and non-negative tensor decompositions/factorizations. Also included is an app to study convergence and clustering properties of decomposition methods on a simulated tensor representing a dynamic paired kidney exchange program.
+							<br />
+							<b>Download <a href="https://github.com/mathieubray/Tensor" target="_blank">[R]</a> <a href="https://mathieubray.shinyapps.io/Tensor/" target="_blank">[R Shiny App]</a></b>
+							<br />
+						</div> <!-- one_column -->
+
+						<a name="RCD"></a>
+						<div class="one_column">
+							<hr>
+							<h3>RCD: Scalable and Efficient Statistical Inference with Estimating Functions in the MapReduce Paradigm for Big Data</h3>
+							<b>Description</b>
+							Python code in the form of Map-Reduce functions for conducting statistical inference based on estimating functions. The functions have been tested on the University of Michigan Flux Hadoop custer and support HDFS file format. Data examples are also provided.
+							<br />
+							<b>Download <a href="software/rcd_python.zip" target="_blank">[Python]</a></b>
+							<br />
+						</div> <!-- one_column -->
+
+						<a name="NGM"></a>
+						<div class="one_column">
+							<hr>
+							<h3>NGM: Bayesian Semi-parametric Stochastic Velocity Model with Ornstein-Uhlenbeck process prior (B-SSVM-OU)</h3>
+							<b>Description</b>
+							Newton's growth Model (NGM) fits longitudinal (or time-series) data when a study examines 1) growth dynamics (trajectory, velocity, acceleration) of health outcomes (e.g., infant's body mass index) and 2) how growth acceleration (or velocity) is associated with observed exposure.
+							<br />
+							<b>Download <a href="software/NGM_1.0.tar.gz" target="_blank">[R]</a></b>
+							<br />
+						</div> <!-- one_column -->
+
+						<a name="MODAC"></a>
+						<div class="one_column">
+							<hr>
+							<h3>MODAC: Method of Divide-and-Combine in Regularized Generalized Linear Models for Big Data</h3>
+							<b>Description</b>
+							Map-Reduce functions for fitting generalized linear models on Hadoop cluster. When a dataset is extrememly large (in terabytes), storing and fitting GLMs on local machine become impossible. The provided functions can fit and provide inference to GLMs for big data on a distributive file system using mapper and reducer functions in a parallel framework. The method is numerically robust.
+							<br />
+							<b>Download <a href="https://github.com/ClumsyBear/MapReduce-for-MODAC" target="_blank">[R & Python]</a></b>
+							<br />
+							<b>References</b>
+							<ol>
+								<li>Tang, L., Zhou, L., and Song, P.X.K. (2016). Method of Divide-and-Combine in Regularised Generalised Linear Models for Big Data. arXiv preprint arXiv:1611.06208.</li>						
+							</ol>								
+						</div> <!-- one_column -->
 
 						<a name="HDDesign"></a>
 						<div class="one_column">
@@ -190,8 +255,8 @@
 	<div id="content_holder">
 		<!--   <p><script type="text/javascript" src="js_lus.js"></script></p>   -->
 		<div id="textbox">
-		  <p class="alignleft">This page was last modified on: 9/2/2016</p>
-		  <p class="alignright">Questions or comments with the site? Contact the maintainer (<a href="people.html#lutang">Lu Tang</a>).</p>
+		  <p class="alignleft">This page was last modified on: 11/22/2017</p>
+		  <p class="alignright">Questions or comments with the site? Contact the maintainers (<a href="people.html#lutang">Lu</a> or <a href="people.html#braymath">Mathieu</a>).</p>
 		</div>			
 	</div> <!-- content_holder -->
 

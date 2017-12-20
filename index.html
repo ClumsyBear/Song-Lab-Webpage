@@ -15,6 +15,17 @@
 	  ga('create', 'UA-84714937-1', 'auto');
 	  ga('send', 'pageview');
 	</script>		
+
+	<script type="text/javascript">
+	var image1 = new Image()
+	image1.src = "image/home1_3x4.jpg"
+	var image2 = new Image()
+	image2.src = "image/home2_3x4.jpg"
+	var image3 = new Image()
+	image3.src = "image/home3_3x4.jpg"
+	</script>
+
+
 </head>
 
 <body>
@@ -54,10 +65,30 @@
 		<div class=wrapper>
 			<div class="one_column">
 				<div id="content_holder">
-					<div class=wrapper>
-						<img src="image/FullSizeRender5.jpg" width="1024" alt="addagroupphoto">
-					</div> <!-- wrapper -->
+					
+					<!-- <div class=wrapper>
+						<img src="image/IMG_7451.JPG" width="1024" alt="addagroupphoto">
+					</div> --> <!-- wrapper --> 
+
+					<p><img src="images/pentagg.jpg" width="1024" name="slide" /></p>
+					<script type="text/javascript">
+					        var step=1;
+					        function slideit()
+					        {
+					            document.images.slide.src = eval("image"+step+".src");
+					            if(step<3)
+					                step++;
+					            else
+					                step=1;
+					            setTimeout("slideit()",6000);
+					        }
+					        slideit();
+					</script>
+
+
 				</div> <!-- content_holder -->
+
+
 
 				<div id="content_holder">
 					<div class=wrapper>
@@ -67,7 +98,7 @@
 
 						<p>Data Science has been always playing an important role in the medical and public health sciences.  This multi-disciplinary science branch has provided analytic tools and software for data collection, modeling and data analysis, which has helped advance the biomedical research and knowledge to improve human quality of life.  Complex big data collected from environmental health sciences and nutritional sciences have presented great challenges to data science for further growth and advancement of statistical method and theory tailored to the needs from both medical and public health sciences.</p>
 
-						<p>Song Lab now has two postdoctoral research fellows, six PhD students and two master students.</p>
+						<p>Song Lab now has three postdoctoral research fellows, eight PhD students and one master student.</p>
 					</div> <!-- wrapper -->
 				</div> <!-- content_holder -->		
 			</div> <!-- one_column -->
@@ -79,8 +110,8 @@
 	<div id="content_holder">
 		<!--   <p><script type="text/javascript" src="js_lus.js"></script></p>   -->
 		<div id="textbox">
-		  <p class="alignleft">This page was last modified on: 8/30/2016</p>
-		  <p class="alignright">Questions or comments with the site? Contact the maintainer (<a href="people.html#lutang">Lu Tang</a>).</p>
+		  <p class="alignleft">This page was last modified on: 10/26/2017</p>
+		  <p class="alignright">Questions or comments with the site? Contact the maintainers (<a href="people.html#lutang">Lu</a> or <a href="people.html#braymath">Mathieu</a>).</p>
 		</div>			
 	</div> <!-- content_holder -->
 
